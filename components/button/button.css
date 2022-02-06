@@ -1,0 +1,124 @@
+:root {
+  --primary-blue: #0066ff;
+  --primary-hover-blue: #0466c8;
+  --whitesmoke-color: whitesmoke;
+  --dark-theme-bg-color: #121212;
+  --secondary-dark-blue: #1d2d44;
+  --secondary-dark-blue-hover: #33415c;
+}
+
+body {
+  background-color: transparent;
+}
+
+.btn-container {
+  margin: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 0.4rem;
+  margin: 0.5rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  box-shadow: 0px 3px 1px -2px RGB(0 0 0/20%), 0px 2px 2px 0px RGB(0 0 0/14%),
+    0px 1px 5px 0px RGB(0 0 0/12%);
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  color: var(--whitesmoke-color);
+  border: none;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-dark-blue);
+  color: var(--whitesmoke-color);
+  border: none;
+}
+
+.btn-primary-outline {
+  border: 2px solid var(--primary-blue);
+  background-color: transparent;
+  color: var(--primary-blue);
+}
+
+.btn-secondary-outline {
+  border: 2px solid var(--secondary-dark-blue);
+  background-color: transparent;
+  color: var(--secondary-dark-blue);
+}
+
+.btn-primary-text {
+  border: none;
+  background-color: transparent;
+  color: var(--primary-blue);
+  box-shadow: none;
+}
+
+.btn-secondary-text {
+  border: none;
+  background-color: transparent;
+  color: var(--secondary-dark-blue);
+  box-shadow: none;
+}
+
+.btn-large {
+  font-size: 1.25rem;
+  padding: 1.25rem;
+}
+
+.btn-small {
+  font-size: 0.65rem;
+  padding: 0.65rem;
+}
+
+.btn-primary-icon {
+  background-color: var(--primary-blue);
+  color: var(--whitesmoke-color);
+  border: none;
+}
+
+.btn-secondary-icon {
+  background-color: var(--secondary-dark-blue);
+  color: var(--whitesmoke-color);
+  border: none;
+}
+
+.btn-float {
+  border-radius: 50%;
+}
+
+.btn-disabled {
+  opacity: 50%;
+  cursor: no-drop;
+}
+
+.btn-primary:hover,
+.btn-primary-icon:hover {
+  background-color: var(--primary-hover-blue);
+}
+
+.btn-secondary:hover,
+.btn-secondary-icon:hover {
+  background-color: var(--secondary-dark-blue-hover);
+}
+
+.btn-primary-outline:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--primary-hover-blue);
+}
+
+.btn-secondary-outline:hover {
+  color: var(--whitesmoke-color);
+  background-color: var(--secondary-dark-blue-hover);
+}
+
+.btn-primary-text:hover,
+.btn-secondary-text:hover {
+  text-decoration: underline;
+}
