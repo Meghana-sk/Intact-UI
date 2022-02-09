@@ -1,0 +1,58 @@
+:root {
+    --red-color: red;
+    --online-green: rgb(18, 172, 18); 
+    --away-yellow: #fca311;
+    --offline-gray: lightgray;
+    --whitesmoke-color: whitesmoke;
+}
+
+.badge-container {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.badge-status {
+    width: 1rem;
+    height: 1rem;
+    right: 0.1rem;
+    bottom: 0.9rem;
+}
+
+.status-available {
+    background-color: var(--online-green);
+}
+
+.status-away {
+    background-color: var(--away-yellow);
+}
+
+.status-offline {
+    background-color: var(--offline-gray);
+}
+
+.status-dnd {
+    background-color: var(--red-color);
+}
+
+.badge-notif {
+    background-color: var(--red-color);
+    padding: 0.4rem;
+    color: var(--whitesmoke-color);
+    text-align: center;
+    top: -0.7rem;
+    right: -0.1rem;  
+}
+
+.badge-icon {
+    background-color: var(--red-color);
+    padding: 0.4rem;
+    color: var(--whitesmoke-color);
+    text-align: center;
+    top: -1.5rem;
+    right: -0.9rem;  
+}
