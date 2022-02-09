@@ -10,6 +10,11 @@
     height: 4rem;
 }
 
+.avatar-xsmall {
+    width: 2rem;
+    height: 2rem;
+}
+
 .avatar-medium {
     width: 6rem;
     height: 6rem;
@@ -18,6 +23,11 @@
 .avatar-large {
     width: 7rem;
     height: 7rem;
+}
+
+.avatar-xlarge {
+    width: 9rem;
+    height: 9rem;
 }
 
 .avatar-square {
