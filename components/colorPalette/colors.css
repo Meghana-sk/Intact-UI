@@ -1,0 +1,19 @@
+:root {
+    --red-color: red;
+    --online-green: rgb(18, 172, 18);
+    --away-yellow: #fca311;
+    --offline-gray: lightgray;
+    --whitesmoke-color: whitesmoke;
+    --error-red: #ef233c;
+    --warning-yellow: #ff9100;
+    --info-blue: #0077b6;
+    --success-green: #2b9348;
+}
+
+.danger-color {
+    color: var(--red-color);
+}
+
+.success-color {
+    color: var(--success-green);
+}
