@@ -30,6 +30,14 @@ html {
     color: lightgray;
 }
 
+.primary-color-text {
+    color: var(--primary-blue);
+}
+
+.secondary-color-text {
+    color: var(--secondary-dark-blue);
+}
+
 .text-xs {
     font-size: 0.5rem;
     line-height: 1rem;
