@@ -7,59 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
     <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
-    <title>Intact-UI Alert</title>
+    <title>Intact UI | Alert</title>
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <a href="./index.html" id="logo">
-            <h1 class="primary-color-text fw-900">
-                Intact <span class="secondary-color-text fw-600">UI</span>
-            </h1>
-        </a>
-        <a href="#">
+    <nav class="nav-section">
+        <h1 class="primary-color-text fw-900">
+            Intact <span class="secondary-color-text fw-600">UI</span>
+        </h1>
+        <a href="../docs.html">
             <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
         </a>
     </nav>
 
-    <aside class="side-bar">
-        <div><a href="./typography/textUtils.html">Installation</a></div>
-        <div><a href="./typography/textUtils.html">Typography</a></div>
-        <h3>Components</h3>
-        <div><a href="./alert/alert.html">Alert</a></div>
-        <div><a href="./avatar/avatar.html">Avatar</a></div>
-        <div><a href="./badge/badge.html">Badge</a></div>
-        <div><a href="./button/button.html">Button</a></div>
-        <div><a href="./card/card.html">Card</a></div>
-        <div><a href="./grid/grid.html">Grid</a></div>
-        <div><a href="./image/image.html">Image</a></div>
-        <div><a href="./input/input.html">Input</a></div>
-        <div><a href="./toast/toast.html">Toast</a></div>
-
-    </aside>
-
-    <main class="main-content">
-        <h1>Alert</h1>
-        <div class="alert-container">
-            <div class="alert alert-error">
-                <i class="fas fa-exclamation-circle"></i><span>Error Occurred. Try again!</span>
-            </div>
+    <main class="main">
+        <aside class="side-bar">
+            <div><a href="../docs.html">Installation</a></div>
+            <div><a href="../typography/textUtils.html">Typography</a></div>
+            <h3>Components</h3>
+            <div><a href="../alert/alert.html">Alert</a></div>
+            <div><a href="../avatar/avatar.html">Avatar</a></div>
+            <div><a href="../badge/badge.html">Badge</a></div>
+            <div><a href="../button/button.html">Button</a></div>
+            <div><a href="../card/card.html">Card</a></div>
+            <div><a href="../grid/grid.html">Grid</a></div>
+            <div><a href="../image/image.html">Image</a></div>
+            <div><a href="../input/input.html">Input</a></div>
+            <div><a href="../toast/toast.html">Toast</a></div>
+        </aside>
+        <div class="content">
+            <h1>Alert</h1>
+            <p>
+                An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+            </p>
+            <h2>Usage</h2>
+            <p>
+                Different alerts are available.
+                <span class="secondary-color-text fw-600">alert-error, alert-warning, alert-info, alert-success</span
+          >
+        </p>
+        <div class="demo-container">
+          <div class="alert alert-error">
+            <i class="fas fa-exclamation-circle"></i
+            ><span>Error Occurred. Try again!</span>
+        </div>
+        </div>
+        <div class="demo-container">
             <div class="alert alert-warning">
-                <i class="fas fa-exclamation-triangle"></i><span>Warning Alert. Try now!</span>
-            </div>
-            <div class="alert alert-info">
-                <i class="fas fa-info-circle"></i><span>Information Alert. Try now!</span>
-            </div>
-            <div class="alert alert-success">
-                <i class="fas fa-check-circle"></i><span>Success Alert. Try now!</span>
-            </div>
+                <i class="fas fa-exclamation-triangle"></i
+            ><span>Warning Alert. Try now!</span>
+          </div>
         </div>
-        <div>
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253Cspan%253EError%2520Occurred.%2520Try%2520again%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253Cspan%253EWarning%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cspan%253EInformation%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253Cspan%253ESuccess%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
-                style="width: 858px; height: 484px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-    </main>
-</body>
 
+        <div class="demo-container">
+          <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i
+            ><span>Information Alert. Try now!</span>
+          </div>
+        </div>
+        <div class="demo-container">
+          <div class="alert alert-success">
+            <i class="fas fa-check-circle"></i
+            ><span>Success Alert. Try now!</span>
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EError%2520Occurred.%2520Try%2520again%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EWarning%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EInformation%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253ESuccess%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 513px;
+              height: 523px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
