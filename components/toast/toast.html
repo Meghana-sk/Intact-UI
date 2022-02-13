@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./toast.css">
-    <link rel="stylesheet" href="../colorPalette/colors.css">
-    <link rel="stylesheet" href="../typography/textUtils.css">
+    <link rel="stylesheet" href="../../main.css">
     <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
     <title>Intact UI | Toast</title>
 </head>
+
 <body>
-    <div class="toast-container">
-    <div class="toast success">
-        <p class="toast-msg">Your message is saved!</p>
-    </div>
-    <div class="toast success usr-action">
-        <p class="toast-msg">Your message is saved!</p>
-        <div class="close-icon"><i class="fas fa-times"></i></div>
-    </div>
-    <div class="toast failure usr-action">
-        <p class="toast-msg">Your message could not be saved. Try again later.</p>
-        <div class="close-icon"><i class="fas fa-times"></i></div>
-    </div>
-    </div>
+    <nav class="nav-section">
+        <a href="../../index.html" id="logo">
+            <h1 class="primary-color-text fw-900">
+                Intact <span class="secondary-color-text fw-600">UI</span>
+            </h1>
+        </a>
+        <a href="../docs.html">
+            <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
+        </a>
+    </nav>
+    <main class="main">
+        <aside class="side-bar">
+            <div><a href="../../components/docs.html">Installation</a></div>
+            <div><a href="../typography/textUtils.html">Typography</a></div>
+            <h3>Components</h3>
+            <div><a href="../alert/alert.html">Alert</a></div>
+            <div><a href="../avatar/avatar.html">Avatar</a></div>
+            <div><a href="../badge/badge.html">Badge</a></div>
+            <div><a href="../button/button.html">Button</a></div>
+            <div><a href="../card/card.html">Card</a></div>
+            <div><a href="../grid/grid.html">Grid</a></div>
+            <div><a href="../image/image.html">Image</a></div>
+            <div><a href="../input/input.html">Input</a></div>
+            <div><a href="../toast/toast.html">Toast</a></div>
+
+        </aside>
+        <div class="content">
+            <h1>Toast/Snackbar</h1>
+            <p>Toast display messages related to an interaction happened between user and the website. They usually stay on the screen for 2-3 seconds and then disappear. Toast can be used to show success messages, warnings or errors.
+            </p>
+            <p>Snackbar is used to show users if certain actions take place in our applications.</p>
+            <h2>Usage</h2>
+            <h3>Success toast</h3>
+            <p>Use <span class="secondary-color-text fw-600">success</span> for success notification</p>
+            <div class="demo-container">
+                <div class="toast success">
+                    <p class="toast-msg">Your message is saved!</p>
+                </div>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520success%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-msg%2522%253EYour%2520message%2520is%2520saved%21%253C%252Fp%253E%2520%250A%253C%252Fdiv%253E%250A"
+                    style="width: 555px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3>Success Snackbar</h3>
+            <p>Snackbar has user action. Include <span class="secondary-color-text fw-600">usr-action</span> class along with toast to convert to snackbar and <span class="secondary-color-text fw-600">success</span> for success notification</p>
+            <div class="demo-container">
+                <div class="toast success usr-action">
+                    <p class="toast-msg">Your message is saved!</p>
+                    <div class="close-icon"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520success%2520usr-action%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522toast-msg%2522%253EYour%2520message%2520is%2520saved%21%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522close-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A"
+                    style="width: 647px; height: 262px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3>Failure snackbar</h3>
+            <p>Snackbar has user action. Include <span class="secondary-color-text fw-600">usr-action</span> class along with toast to convert to snackbar and <span class="secondary-color-text fw-600">failure</span> for failure notification</p>
+            <div class="demo-container">
+                <div class="toast failure usr-action">
+                    <p class="toast-msg">Your message could not be saved. Try again later.</p>
+                    <div class="close-icon"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520failure%2520usr-action%2522%253E%250A%2509%253Cp%2520class%253D%2522toast-msg%2522%253EYour%2520message%2520could%2520not%2520be%2520saved.%2520Try%2520again%2520later.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 791px; height: 262px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+        </div>
+    </main>
 </body>
+
 </html>
