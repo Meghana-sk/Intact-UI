@@ -8,7 +8,7 @@
 @import url('./components/image/image.css');
 @import url('./components/input/input.css');
 @import url('./components/typography/textUtils.css');
-
+@import url('./components/docs.css');
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +28,7 @@ html {
     position: fixed;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 0;
 }
 
 .nav-bar a:nth-child(2) {
