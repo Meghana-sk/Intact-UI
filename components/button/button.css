@@ -3,23 +3,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-:root {
-    --primary-blue: #0066ff;
-    --primary-hover-blue: #0466c8;
-    --primary-blue-disabled-color: rgba(0, 102, 255, 0.39);
-    --whitesmoke-color: whitesmoke;
-    --dark-theme-bg-color: #121212;
-    --secondary-dark-blue: #1d2d44;
-    --secondary-dark-blue-hover: #33415c;
-    --secondary-dark-blue-disabled: rgb(29, 45, 68, 0.39);
-}
-
 body {
     background-color: transparent;
-}
-
-.btn-container {
-    margin: 1rem;
 }
 
 .btn {
@@ -28,7 +13,6 @@ body {
     align-items: center;
     border-radius: 5px;
     gap: 0.4rem;
-    margin: 0.5rem;
     padding: 0.8rem;
     border: none;
     background-color: transparent;
@@ -127,4 +111,8 @@ body {
 .btn-primary-text:hover,
 .btn-secondary-text:hover {
     text-decoration: underline;
+}
+
+.btn-link a {
+    color: var(--whitesmoke-color);
 }
