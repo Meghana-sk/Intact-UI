@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    gap: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: fit-content;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 2px solid lightgray;
+    overflow-y: visible;
+}
+
+li {
+    display: block;
+}
+
+.demo-container {
+    width: 40rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2rem;
+    gap: 1rem;
+    background-color: lightgray;
+    margin-left: 15rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
