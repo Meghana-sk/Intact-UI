@@ -1,0 +1,14 @@
+.img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+}

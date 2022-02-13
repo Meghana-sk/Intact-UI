@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-blue: #0066ff;
+    --primary-hover-blue: #0466c8;
+    --primary-blue-disabled-color: rgba(0, 102, 255, 0.39);
+    --whitesmoke-color: whitesmoke;
+    --dark-theme-bg-color: #121212;
+    --secondary-dark-blue: #1d2d44;
+    --secondary-dark-blue-hover: #33415c;
+    --secondary-dark-blue-disabled: rgb(29, 45, 68, 0.39);
+}
+
+body {
+    background-color: transparent;
+}
+
+.btn-container {
+    margin: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 0.4rem;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-primary {
+    background-color: var(--primary-blue);
+    color: var(--whitesmoke-color);
+}
+
+.btn-primary.btn-disabled,
+.btn-primary.btn-disabled:hover {
+    background-color: var(--primary-blue-disabled-color);
+}
+
+.btn-secondary.btn-disabled,
+.btn-secondary.btn-disabled:hover {
+    background-color: var(--secondary-dark-blue-disabled);
+}
+
+.btn-disabled {
+    pointer-events: none;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-dark-blue);
+    color: var(--whitesmoke-color);
+}
+
+.btn-primary-outline {
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.btn-secondary-outline {
+    border: 2px solid var(--secondary-dark-blue);
+    color: var(--secondary-dark-blue);
+}
+
+.btn-primary-text {
+    color: var(--primary-blue);
+    box-shadow: none;
+}
+
+.btn-secondary-text {
+    color: var(--secondary-dark-blue);
+    box-shadow: none;
+}
+
+.btn-large {
+    font-size: 1.25rem;
+    padding: 1.25rem;
+}
+
+.btn-small {
+    font-size: 0.65rem;
+    padding: 0.65rem;
+}
+
+.btn-primary-icon {
+    background-color: var(--primary-blue);
+    color: var(--whitesmoke-color);
+}
+
+.btn-secondary-icon {
+    background-color: var(--secondary-dark-blue);
+    color: var(--whitesmoke-color);
+}
+
+.btn-float {
+    border-radius: 50%;
+}
+
+.btn-primary:hover,
+.btn-primary-icon:hover {
+    background-color: var(--primary-hover-blue);
+}
+
+.btn-secondary:hover,
+.btn-secondary-icon:hover {
+    background-color: var(--secondary-dark-blue-hover);
+}
+
+.btn-primary-outline:hover {
+    color: var(--whitesmoke-color);
+    background-color: var(--primary-hover-blue);
+}
+
+.btn-secondary-outline:hover {
+    color: var(--whitesmoke-color);
+    background-color: var(--secondary-dark-blue-hover);
+}
+
+.btn-primary-text:hover,
+.btn-secondary-text:hover {
+    text-decoration: underline;
+}
