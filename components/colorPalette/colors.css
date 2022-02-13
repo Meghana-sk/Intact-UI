@@ -4,7 +4,7 @@
     --away-yellow: #fca311;
     --offline-gray: lightgray;
     --whitesmoke-color: whitesmoke;
-    --error-red: #ef233c;
+    --error-red: #EB1400;
     --warning-yellow: #ff9100;
     --info-blue: #0077b6;
     --success-green: #2b9348;
@@ -16,6 +16,8 @@
     --secondary-dark-blue: #1d2d44;
     --secondary-dark-blue-hover: #33415c;
     --secondary-dark-blue-disabled: rgb(29, 45, 68, 0.39);
+    --success-green: #268541;
+    --white-color: white;
 }
 
 .danger-color {
