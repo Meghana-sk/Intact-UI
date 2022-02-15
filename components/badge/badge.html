@@ -5,38 +5,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./badge.css">
-    <link rel="stylesheet" href="../avatar/avatar.css">
-    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../../main.css">
     <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
     <title>Intact UI | Badge</title>
 </head>
 
 <body>
-    <div class="badge-container">
-        <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
-        <div class="badge badge-status status-available"></div>
-    </div>
-    <div class="badge-container">
-        <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
-        <div class="badge badge-status status-offline"></div>
-    </div>
-    <div class="badge-container">
-        <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
-        <div class="badge badge-status status-dnd"></div>
-    </div>
-    <div class="badge-container">
-        <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
-        <div class="badge badge-status status-away"></div>
-    </div>
-    <div class="badge-container">
-        <button class="btn btn-secondary">Button</button>
-        <div class="badge badge-notif">10</div>
-    </div>
-    <div class="badge-container">
-        <i class="fas fa-cart-plus fa-2x"></i>
-        <div class="badge badge-icon">10+</div>
-    </div>
+    <nav class="nav-section">
+        <a href="../../index.html" id="logo">
+            <h1 class="primary-color-text fw-900">
+                Intact <span class="secondary-color-text fw-600">UI</span>
+            </h1>
+        </a>
+        <a href="../docs.html">
+            <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
+        </a>
+    </nav>
+
+    <main class="main">
+        <aside class="side-bar">
+            <div><a href="../../components/docs.html">Installation</a></div>
+            <div><a href="../typography/textUtils.html">Typography</a></div>
+            <h3>Components</h3>
+            <div><a href="../alert/alert.html">Alert</a></div>
+            <div><a href="../avatar/avatar.html">Avatar</a></div>
+            <div><a href="../badge/badge.html">Badge</a></div>
+            <div><a href="../button/button.html">Button</a></div>
+            <div><a href="../card/card.html">Card</a></div>
+            <div><a href="../grid/grid.html">Grid</a></div>
+            <div><a href="../image/image.html">Image</a></div>
+            <div><a href="../input/input.html">Input</a></div>
+            <div><a href="../toast/toast.html">Toast</a></div>
+        </aside>
+
+        <div class="content">
+            <h1>Badge</h1>
+            <p>
+                Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used. </p>
+            <h3>Status badges on avatar</h3>
+            <p>
+                Use <code class="secondary-color-text fw-600">
+                    status-available, status-away, status-dnd, status-offline
+                </code> with <code class="secondary-color-text fw-600">badge-status</code> to circular badge on avatars
+            </p>
+            <h3>Avatar with status available badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
+                    <div class="badge badge-status status-available"></div>
+                </div>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-medium%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile-picture.jpg%2522%2520alt%253D%2522profile-picture%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-status%2520status-available%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 951px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3>Avatar with status offline badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
+                    <div class="badge badge-status status-offline"></div>
+                </div>
+            </div>
+            <div class="iframecontainer">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-medium%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile-picture.jpg%2522%2520alt%253D%2522profile-picture%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-status%2520status-offline%2522%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 951px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3>Avatar with status do not disturb badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
+                    <div class="badge badge-status status-dnd"></div>
+                </div>
+            </div>
+            <div class="iframecontainer">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-medium%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile-picture.jpg%2522%2520alt%253D%2522profile-picture%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-status%2520status-dnd%2522%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 951px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <h3>Avatar with status away badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <img class="avatar avatar-medium" src="../../assets/profile-picture.jpg" alt="profile-picture">
+                    <div class="badge badge-status status-away"></div>
+                </div>
+            </div>
+            <div class="iframecontainer">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-medium%2522%2520src%253D%2522..%252F..%252Fassets%252Fprofile-picture.jpg%2522%2520alt%253D%2522profile-picture%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-status%2520status-away%2522%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 951px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <h3>Button with badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <button class="btn btn-secondary">Button</button>
+                    <div class="badge badge-notif text-s">10</div>
+                </div>
+            </div>
+            <div class="iframecontainer">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-notif%2522%253E10%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 597px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <h3>Icons with badge</h3>
+            <div class="demo-container">
+                <div class="badge-container">
+                    <i class="fas fa-cart-plus fa-2x"></i>
+                    <div class="badge badge-icon">10+</div>
+                </div>
+            </div>
+            <div class="iframecontainer">
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cart-plus%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-icon%2522%253E10%252B%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 521px; height: 243px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
