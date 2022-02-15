@@ -53,3 +53,8 @@ html {
     align-items: center;
     gap: 1rem;
 }
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
