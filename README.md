@@ -25,7 +25,7 @@ Add the below code in the `<head>` of your HTML page
 
 ```html
     <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="https://intactui.netlify.app/main.css">
+    <link rel="stylesheet" href="https://intactui.netlify.app/main.css">
 ```
 
 ---
