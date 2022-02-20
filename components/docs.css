@@ -58,3 +58,15 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+.main .side-bar div a {
+    padding: 0.5rem;
+    color: var(--dark-theme-bg-color);
+    cursor: pointer;
+}
+
+.main .side-bar div a:hover {
+    background-color: lightgray;
+    color: var(--primary-blue);
+    font-weight: bold;
+}
