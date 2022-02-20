@@ -37,7 +37,7 @@ Intact UI provides the following components:
 - [Alert](https://intactui.netlify.app/components/alert/alert.html)
 - [Avatar](https://intactui.netlify.app/components/avatar/avatar.html)
 - [Badge](https://intactui.netlify.app/components/badge/badge.html)
-- [Button](https://intactui.netlify.app/components/badge/badge.html)
+- [Button](https://intactui.netlify.app/components/button/button.html)
 - [Card](https://intactui.netlify.app/components/card/card.html)
 - [Grid](https://intactui.netlify.app/components/grid/grid.html)
 - [Image](https://intactui.netlify.app/components/image/image.html)
