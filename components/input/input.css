@@ -1,51 +1,42 @@
-:root {
-  --error-red: #ef233c;
-  --warning-yellow: #ff9100;
-  --info-blue: #0077b6;
-  --success-green: #2b9348;
-  --lightish-gray: rgb(66, 62, 62);
-}
-
 .input-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: fit-content;
-  margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 25px;
 }
 
 .input-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .input-label {
-  color: var(--lightish-gray);
+    color: var(--lightish-gray);
 }
 
 .input-text {
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .error-input {
-  border: 1px solid var(--error-red);
+    border: 1px solid var(--error-red);
 }
 
 .input-error-text {
-  font-size: 0.8rem;
-  margin-top: 0.1rem;
-  color: var(--error-red);
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    color: var(--error-red);
 }
 
 .success-input {
-  border: 1px solid var(--success-green);
+    border: 1px solid var(--success-green);
 }
 
 .input-success-text {
-  font-size: 0.8rem;
-  color: var(--success-green);
+    font-size: 0.8rem;
+    color: var(--success-green);
 }
