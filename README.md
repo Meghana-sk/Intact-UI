@@ -11,13 +11,6 @@
 Intact UI is a `light-weight`, `minimalistic`, `easy-to-use` CSS library to build web applications.
 
 ---
-
-### Table of Contents
-
-- [Set up & Installation](#installation)
-- [Components](#components)
-- [Developer info](#dev-info)
-
 ### Technologies Used
 
 - HTML
@@ -54,7 +47,7 @@ Intact UI provides the following components:
 
 ---
 
-## Author Info
+## Developer info
 
 - Twitter - [@meghana__sk](https://twitter.com/meghana__sk)
 - Linkedin - [@meghanask](https://www.linkedin.com/in/meghanask)
