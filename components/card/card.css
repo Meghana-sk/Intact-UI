@@ -118,6 +118,11 @@
     padding: 10px;
 }
 
-.btn {
+.card .card-footer .btn {
+    width: calc(100% - 20px);
+    margin: 10px 0 10px 0;
+}
+
+.card-horizontal .card-content .btn {
     width: 100%;
 }

@@ -21,6 +21,7 @@ body {
 }
 
 .btn-primary {
+    border: 2px solid var(--primary-blue);
     background-color: var(--primary-blue);
     color: var(--whitesmoke-color);
 }
@@ -40,6 +41,7 @@ body {
 }
 
 .btn-secondary {
+    border: 2px solid var(--secondary-dark-blue);
     background-color: var(--secondary-dark-blue);
     color: var(--whitesmoke-color);
 }
