@@ -23,5 +23,11 @@ function openSideNav() {
  */
 function closeSideNav() {
     sidebar.style.left = "-100%";
-    closeSideBar.style.display = "none";
 }
+
+/** Hides close icon whenever window size exceeds 800px */
+window.addEventListener("resize", () => {
+    if (window.innerWidth > 800) {
+        closeSideBar.style.display = "none";
+    }
+})
