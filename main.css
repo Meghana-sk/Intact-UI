@@ -23,7 +23,7 @@ html {
 
 .nav-bar {
     width: 100%;
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,7 +39,7 @@ html {
 
 .main-content {
     width: 100%;
-    height: calc(100vh - 2rem - 2rem);
+    height: calc(100vh - 2rem);
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -66,6 +66,11 @@ a,
 li {
     text-decoration: none;
     list-style: none;
+    color: var(--secondary-dark-blue);
+}
+
+.footer ul li i:hover {
+    color: var(--primary-blue);
 }
 
 li {
