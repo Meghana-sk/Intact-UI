@@ -1,0 +1,49 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal .modal-header i {
+    color: var(--secondary-dark-blue);
+    cursor: pointer;
+}
+
+.modal .modal-header i:hover {
+    color: var(--primary-blue);
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+/* Modal container for demo. */
+
+.modal-demo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+}

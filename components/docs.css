@@ -22,6 +22,7 @@ html {
     left: 0;
     right: 0;
     z-index: 9999;
+    gap: 1rem;
 }
 
 .nav-section a:nth-child(1) {
