@@ -44,11 +44,12 @@ html {
     justify-content: space-between;
 }
 
-.close-icon > .fa-times:hover {
+.close-icon>.fa-times:hover {
     color: var(--offline-gray);
     cursor: pointer;
 }
 
 .toast-msg {
+    color: var(--white-color);
     font-size: 0.85rem;
 }

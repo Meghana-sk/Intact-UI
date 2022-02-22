@@ -9,6 +9,7 @@
 @import url('./components/input/input.css');
 @import url('./components/typography/textUtils.css');
 @import url('./components/toast/toast.css');
+@import url('./components/modal/modal.css');
 @import url('./components/docs.css');
 * {
     margin: 0;
