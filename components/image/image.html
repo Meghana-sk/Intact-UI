@@ -1,94 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
-    <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8831240330.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-iu.png" />
     <title>Intact UI | Image</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="nav-section">
-        <a href="../../index.html" id="logo">
-            <h1 class="primary-color-text fw-900 text-l">
-                Intact <span class="secondary-color-text fw-600 text-l">UI</span>
-            </h1>
-        </a>
-        <a href="../docs.html">
-            <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
-        </a>
-        <a href="https://github.com/Meghana-sk/Intact-UI/tree/devIntact">
-            <i class="fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/meghanask">
-            <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://twitter.com/meghana__sk">
-            <i class="fab fa-twitter fa-2x"></i>
-        </a>
+      <a href="../../index.html" id="logo">
+        <h1 class="primary-color-text fw-900 text-l">
+          Intact <span class="secondary-color-text fw-600 text-l">UI</span>
+        </h1>
+      </a>
+      <a href="../docs.html">
+        <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
+      </a>
+      <a href="https://github.com/Meghana-sk/Intact-UI/tree/devIntact">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/meghanask">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://twitter.com/meghana__sk">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
     </nav>
 
     <div class="open-sidebar"><i class="fas fa-bars fa-2x"></i></div>
 
     <main class="main">
-        <aside class="side-bar">
-            <div class="close-sidebar"><i class="fas fa-times fa-2x"></i></div>
-            <div><a href="../../components/docs.html">Installation</a></div>
-            <div><a href="../typography/textUtils.html">Text utilties</a></div>
-            <h3>Components</h3>
-            <div><a href="../alert/alert.html">Alert</a></div>
-            <div><a href="../avatar/avatar.html">Avatar</a></div>
-            <div><a href="../badge/badge.html">Badge</a></div>
-            <div><a href="../button/button.html">Button</a></div>
-            <div><a href="../card/card.html">Card</a></div>
-            <div><a href="../grid/grid.html">Grid</a></div>
-            <div><a href="../image/image.html">Image</a></div>
-            <div><a href="../input/input.html">Input</a></div>
-            <div><a href="../modal/modal.html">Modal</a></div>
-            <div><a href="../toast/toast.html">Toast</a></div>
+      <aside class="side-bar">
+        <div class="close-sidebar"><i class="fas fa-times fa-2x"></i></div>
+        <div><a href="../../components/docs.html">Installation</a></div>
+        <div><a href="../typography/textUtils.html">Text utilties</a></div>
+        <h3>Components</h3>
+        <div><a href="../alert/alert.html">Alert</a></div>
+        <div><a href="../avatar/avatar.html">Avatar</a></div>
+        <div><a href="../badge/badge.html">Badge</a></div>
+        <div><a href="../button/button.html">Button</a></div>
+        <div><a href="../card/card.html">Card</a></div>
+        <div><a href="../grid/grid.html">Grid</a></div>
+        <div><a href="../image/image.html">Image</a></div>
+        <div><a href="../input/input.html">Input</a></div>
+        <div><a href="../modal/modal.html">Modal</a></div>
+        <div><a href="../rating/rating.html">Rating</a></div>
+        <div><a href="../toast/toast.html">Toast</a></div>
+      </aside>
+      <div class="content">
+        <h1>Image</h1>
+        <p>
+          An image is a graphic representation of something. Images can be made
+          responsive (so that they don't jump out of its parent container), have
+          rounded corners or can look like a circle.
+        </p>
 
-        </aside>
-        <div class="content">
-            <h1>Image</h1>
-            <p>
-                An image is a graphic representation of something. Images can be made responsive (so that they don't jump out of its parent container), have rounded corners or can look like a circle.
-            </p>
-
-            <h3>Basic image 250px/250px</h3>
-            <div class="demo-container">
-                <img src="../../assets/people.jpg" alt="3 random people" class="img" />
-            </div>
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2522%2520%252F%253E%250A"
-                    style="width: 732px; height: 206px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <h3>Responsive image</h3>
-            <div class="demo-container">
-                <img src="../../assets/people.jpg" alt="3 random people" class="img img-responsive" />
-            </div>
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2520img-responsive%2522%2520%252F%253E%250A"
-                    style="width: 858px; height: 206px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-
-            <h3>Round image</h3>
-            <div class="demo-container">
-                <img src="../../assets/people.jpg" alt="3 random people" class="img img-round" />
-            </div>
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2520img-round%2522%2520%252F%253E%250A"
-                    style="width: 816px; height: 206px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+        <h3>Basic image 250px/250px</h3>
+        <div class="demo-container">
+          <img
+            src="../../assets/people.jpg"
+            alt="3 random people"
+            class="img"
+          />
         </div>
-    </main>
-</body>
-<script src="../../scripts/script.js"></script>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2522%2520%252F%253E%250A"
+            style="
+              width: 732px;
+              height: 206px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <h3>Responsive image</h3>
+        <div class="demo-container">
+          <img
+            src="../../assets/people.jpg"
+            alt="3 random people"
+            class="img img-responsive"
+          />
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2520img-responsive%2522%2520%252F%253E%250A"
+            style="
+              width: 858px;
+              height: 206px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
+        <h3>Round image</h3>
+        <div class="demo-container">
+          <img
+            src="../../assets/people.jpg"
+            alt="3 random people"
+            class="img img-round"
+          />
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fpeople.jpg%2522%2520alt%253D%25223%2520random%2520people%2522%2520class%253D%2522img%2520img-round%2522%2520%252F%253E%250A"
+            style="
+              width: 816px;
+              height: 206px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../../scripts/script.js"></script>
 </html>
