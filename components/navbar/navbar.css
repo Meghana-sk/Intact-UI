@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-s);
+  position: relative;
+}
+
+.search-box input {
+  flex-grow: 1;
+  border-radius: var(--br-rad-s);
+  padding: 0.4rem 0.6rem 0.4rem 1.5rem;
+  border: 2px solid var(--secondary-dark-blue-hover);
+  position: relative;
+}
+
+.search-box > .search-btn {
+  color: var(--secondary-dark-blue-hover);
+  position: absolute;
+  left: 0.4rem;
+  bottom: 0.4rem;
+  top: 0.4rem;
+}
+
+.login-btn {
+  height: 2rem;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: var(--secondary-dark-blue-hover);
+}
+
+.nav li a:hover {
+  color: var(--primary-blue);
+}

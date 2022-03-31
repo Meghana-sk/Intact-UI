@@ -1,13 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --br-rad-s: 8px;
 }
-
-html {
-  font-size: 16px;
-}
-
 .nav-section {
   background-color: white;
   width: 100%;
