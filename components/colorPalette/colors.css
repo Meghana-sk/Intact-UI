@@ -1,6 +1,6 @@
 :root {
   --red-color: red;
-  --online-green: rgb(18, 172, 18);
+  --online-green: #12ac12;
   --away-yellow: #fca311;
   --offline-gray: lightgray;
   --whitesmoke-color: whitesmoke;
@@ -18,7 +18,7 @@
   --secondary-dark-blue-disabled: rgb(29, 45, 68, 0.39);
   --success-green: #268541;
   --white-color: white;
-  --lightish-gray: rgb(66, 62, 62);
+  --lightish-gray: #423e3e;
   --turmeric-yellow: #ffe400;
 }
 
