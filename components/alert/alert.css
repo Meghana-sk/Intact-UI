@@ -22,7 +22,7 @@
 }
 
 .alert-error {
-  background-color: var(>Text utiltieserror-red);
+  background-color: var(--error-red);
 }
 
 .alert-warning {
