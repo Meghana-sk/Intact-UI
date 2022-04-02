@@ -1,0 +1,26 @@
+.list {
+    border: 1px solid var(--offline-gray);
+    padding: 0.5rem;
+}
+
+.list li {
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.list li{
+    display: block;
+    list-style: none;
+    cursor: pointer;
+}
+
+.stacked-list li {
+    background-color: var(--secondary-dark-blue);
+    color: var(--whitesmoke-color);
+    border: 1px solid var(--offline-gray);
+    padding: 0.5rem;
+}
+
+.stacked-list li:hover {
+    background-color: var(--secondary-dark-blue-hover);
+}
