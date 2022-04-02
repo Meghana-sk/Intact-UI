@@ -17,7 +17,7 @@
 
 .search-box input {
   flex-grow: 1;
-  border-radius: var(--br-rad-s);
+  border-radius: var(--border-radius-md);
   padding: 0.4rem 0.6rem 0.4rem 1.5rem;
   border: 2px solid var(--secondary-dark-blue-hover);
   position: relative;

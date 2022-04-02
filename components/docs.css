@@ -1,14 +1,15 @@
 :root {
-  --br-rad-s: 8px;
+  --border-radius-s: 5px;
+  --border-radius-md: 8px;
 }
 .nav-section {
-  background-color: white;
+  background-color: var(--white-color);
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: white;
+  background-color: var(--white-color);
   padding: 1.5rem;
   position: sticky;
   top: 0;
@@ -83,7 +84,7 @@ iframe {
 }
 
 .main .side-bar div a:hover {
-  background-color: lightgray;
+  background-color: var(--offline-gray);
   color: var(--primary-blue);
   font-weight: bold;
 }
