@@ -13,6 +13,7 @@
 @import url("./components/rating/rating.css");
 @import url("./components/docs.css");
 @import url("./components/navbar/navbar.css");
+@import url("./components/list/list.css");
 * {
   margin: 0;
   padding: 0;
