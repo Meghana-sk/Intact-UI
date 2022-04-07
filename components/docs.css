@@ -77,6 +77,12 @@ iframe {
   flex-direction: column;
 }
 
+.main .side-bar {
+  height: 85vh;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+
 .main .side-bar div a {
   padding: 0.5rem;
   color: var(--dark-theme-bg-color);
