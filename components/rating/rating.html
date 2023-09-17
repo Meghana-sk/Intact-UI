@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/8831240330.js"
       crossorigin="anonymous"
     ></script>
-    <title>Intact UI | Alert</title>
+    <title>Intact UI | Rating</title>
   </head>
 
   <body>
@@ -57,47 +57,31 @@
         <div><a href="../toast/toast.html">Toast</a></div>
       </aside>
       <div class="content">
-        <h1>Alert</h1>
+        <h1>Rating</h1>
         <p>
-          An alert displays a short, important message in a way that attracts
-          the user's attention without interrupting the user's task.
+          Rating component are used as per requirement. Most common use case is
+          in review section.
         </p>
         <h2>Usage</h2>
-        <p>
-          Different alerts are available.
-          <span class="secondary-color-text fw-600"
-            >alert-error, alert-warning, alert-info, alert-success</span
-          >
-        </p>
+        <p>5 stars being the highest and 1 star being the lowest.</p>
         <div class="demo-container">
-          <div class="alert alert-error">
-            <i class="fas fa-exclamation-circle"></i
-            ><span>Error Occurred. Try again!</span>
-          </div>
-        </div>
-        <div class="demo-container">
-          <div class="alert alert-warning">
-            <i class="fas fa-exclamation-triangle"></i
-            ><span>Warning Alert. Try now!</span>
-          </div>
-        </div>
-
-        <div class="demo-container">
-          <div class="alert alert-info">
-            <i class="fas fa-info-circle"></i
-            ><span>Information Alert. Try now!</span>
-          </div>
-        </div>
-        <div class="demo-container">
-          <div class="alert alert-success">
-            <i class="fas fa-check-circle"></i
-            ><span>Success Alert. Try now!</span>
+          <div class="rating-section">
+            <input type="radio" name="star1" id="star1" />
+            <label for="star1" class="fa fa-star"></label>
+            <input type="radio" name="star1" id="star2" />
+            <label for="star2" class="fa fa-star"></label>
+            <input type="radio" name="star1" id="star3" />
+            <label for="star3" class="fa fa-star"></label>
+            <input type="radio" name="star1" id="star4" />
+            <label for="star4" class="fa fa-star"></label>
+            <input type="radio" name="star1" id="star5" />
+            <label for="star5" class="fa fa-star"></label>
           </div>
         </div>
         <div class="iframe-container">
           <iframe
             class="code-snippet"
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EError%2520Occurred.%2520Try%2520again%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EWarning%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253EInformation%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cspan%253ESuccess%2520Alert.%2520Try%2520now%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-section%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star1%2522%2520id%253D%2522star1%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star1%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star1%2522%2520id%253D%2522star2%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star2%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star1%2522%2520id%253D%2522star3%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star3%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star1%2522%2520id%253D%2522star4%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star4%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522star1%2522%2520id%253D%2522star5%2522%2520%252F%253E%250A%2520%2520%253Clabel%2520for%253D%2522star5%2522%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>

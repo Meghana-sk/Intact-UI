@@ -1,127 +1,133 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --border-radius-s: 5px;
+  --border-radius-md: 8px;
 }
-
-html {
-    font-size: 16px;
-}
-
 .nav-section {
-    background-color: white;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: white;
-    padding: 1.5rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    gap: 1rem;
+  background-color: var(--white-color);
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--white-color);
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  gap: 1rem;
 }
 
 .nav-section a:nth-child(1) {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .main {
-    width: 100%;
-    display: flex;
-    gap: 2rem;
-    padding: 1rem;
-    margin-left: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
 }
 
 .side-bar {
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 6rem;
-    left: 0;
-    gap: 1rem;
-    padding: 1.5rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  gap: 1rem;
+  padding: 1.5rem;
 }
 
 .content {
-    width: calc(100% - 10rem);
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1.5rem;
-    position: relative;
-    left: 10rem;
+  width: calc(100% - 10rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  left: 10rem;
 }
 
 .demo-container,
 .iframe-container {
-    width: 100%;
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 iframe {
-    width: 100%;
+  width: 100%;
+}
+
+.code-snippet {
+  width: 100%;
+  min-height: 300px;
+  border: 0;
+  overflow: hidden;
 }
 
 .vertical-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .side-bar {
+  height: 85vh;
+  overflow-y: scroll;
+  scroll-behavior: auto;
 }
 
 .main .side-bar div a {
-    padding: 0.5rem;
-    color: var(--dark-theme-bg-color);
-    cursor: pointer;
+  padding: 0.5rem;
+  color: var(--dark-theme-bg-color);
+  cursor: pointer;
 }
 
 .main .side-bar div a:hover {
-    background-color: lightgray;
-    color: var(--primary-blue);
-    font-weight: bold;
+  background-color: var(--offline-gray);
+  color: var(--primary-blue);
+  font-weight: bold;
 }
 
 .open-sidebar,
 .side-bar .close-sidebar {
-    display: none;
-    margin: 2rem;
-    color: var(--secondary-dark-blue);
-    cursor: pointer;
+  display: none;
+  margin: 2rem;
+  color: var(--secondary-dark-blue);
+  cursor: pointer;
 }
 
 i:hover {
-    color: var(--primary-blue)
+  color: var(--primary-blue);
 }
 
 @media screen and (max-width: 800px) {
-    .side-bar {
-        display: none;
-        transition: left 1s ease;
-        width: 80vw;
-        height: auto;
-        padding: 1rem;
-        overflow-y: auto;
-        position: fixed;
-        top: 4rem;
-        left: 0;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--white-color);
-        z-index: 888;
-    }
-    .open-sidebar {
-        display: block;
-    }
-    .content {
-        width: 100%;
-        left: 0;
-    }
+  .side-bar {
+    display: none;
+    transition: left 1s ease;
+    width: 80vw;
+    height: auto;
+    padding: 1rem;
+    overflow-y: auto;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    z-index: 888;
+  }
+  .open-sidebar {
+    display: block;
+  }
+  .content {
+    width: 100%;
+    left: 0;
+  }
 }

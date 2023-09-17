@@ -1,112 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
     <link rel="icon" type="image/png" href="../../assets/favicon-iu.png" />
-    <script src="https://kit.fontawesome.com/8831240330.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8831240330.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Intact UI | Input</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="nav-section">
-        <a href="../../index.html" id="logo">
-            <h1 class="primary-color-text fw-900 text-l">
-                Intact <span class="secondary-color-text fw-600 text-l">UI</span>
-            </h1>
-        </a>
-        <a href="../docs.html">
-            <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
-        </a>
-        <a href="https://github.com/Meghana-sk/Intact-UI/tree/devIntact">
-            <i class="fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/meghanask">
-            <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://twitter.com/meghana__sk">
-            <i class="fab fa-twitter fa-2x"></i>
-        </a>
+      <a href="../../index.html" id="logo">
+        <h1 class="primary-color-text fw-900 text-l">
+          Intact <span class="secondary-color-text fw-600 text-l">UI</span>
+        </h1>
+      </a>
+      <a href="../docs.html">
+        <p id="docs" class="text-s secondary-color-text fw-600">Docs</p>
+      </a>
+      <a href="https://github.com/Meghana-sk/Intact-UI/tree/devIntact">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/meghanask">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://twitter.com/meghana__sk">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
     </nav>
 
     <div class="open-sidebar"><i class="fas fa-bars fa-2x"></i></div>
 
     <main class="main">
-        <aside class="side-bar">
-            <div class="close-sidebar"><i class="fas fa-times fa-2x"></i></div>
-            <div><a href="../../components/docs.html">Installation</a></div>
-            <div><a href="../typography/textUtils.html">Text utilties</a></div>
-            <h3>Components</h3>
-            <div><a href="../alert/alert.html">Alert</a></div>
-            <div><a href="../avatar/avatar.html">Avatar</a></div>
-            <div><a href="../badge/badge.html">Badge</a></div>
-            <div><a href="../button/button.html">Button</a></div>
-            <div><a href="../card/card.html">Card</a></div>
-            <div><a href="../grid/grid.html">Grid</a></div>
-            <div><a href="../image/image.html">Image</a></div>
-            <div><a href="../input/input.html">Input</a></div>
-            <div><a href="../modal/modal.html">Modal</a></div>
-            <div><a href="../toast/toast.html">Toast</a></div>
-
-        </aside>
-        <div class="content">
-            <h1>Input</h1>
-            <p>
-                Inputs are used in forms to collect user related data.
-            </p>
-            <h3>Basic Input</h3>
-            <p>Include class <span class="secondary-color-text fw-600">input-box</span> along with <span class="secondary-color-text fw-600">input-label, input-text</span> to have desired styling for label and input component</p>
-            <div class="demo-container">
-                <div class="input-box">
-                    <label class="input-label fw-600">User name</label>
-                    <input class="input-text" type="text" />
-                </div>
-            </div>
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EUser%2520name%253C%252Flabel%253E%2520%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 588px; height: 262px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-            <h3>Input with error validation</h3>
-            <p>Include class <span class="secondary-color-text fw-600">input-box</span> along with <span class="secondary-color-text fw-600">error-input</span> to have error validation on textbox with error text class <span class="secondary-color-text fw-600">input-error-text</span>
-            </p>
-            <div class="demo-container">
-                <div class="input-box">
-                    <label class="input-label fw-600">Password</label>
-                    <input class="input-text error-input" type="text" />
-                    <div class="input-error-text">Incorrect password! Please try again</div>
-                </div>
-            </div>
-
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2520error-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-error-text%2522%253EIncorrect%2520password%21%2520Please%2520try%2520again%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A"
-                    style="width: 765px; height: 281px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            </div>
-
-            <h3>Input with validation</h3>
-            <p>Include class <span class="secondary-color-text fw-600">input-box</span> along with <span class="secondary-color-text fw-600">success-input</span> to have error validation on textbox with success text class <span class="secondary-color-text fw-600">input-success-text</span></p>
-            <div class="demo-container">
-                <div class="input-box">
-                    <label class="input-label fw-600">Password</label>
-                    <input class="input-text success-input" type="text" />
-                    <div class="input-success-text">Password matches
-                    </div>
-                </div>
-            </div>
-
-            <div class="iframe-container">
-                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2520success-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-success-text%2522%253EPassword%2520matches%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                    style="width: 605px; height: 299px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            </div>
+      <aside class="side-bar">
+        <div class="close-sidebar"><i class="fas fa-times fa-2x"></i></div>
+        <div><a href="../../components/docs.html">Installation</a></div>
+        <div><a href="../typography/textUtils.html">Text utilties</a></div>
+        <h3>Components</h3>
+        <div><a href="../alert/alert.html">Alert</a></div>
+        <div><a href="../avatar/avatar.html">Avatar</a></div>
+        <div><a href="../badge/badge.html">Badge</a></div>
+        <div><a href="../button/button.html">Button</a></div>
+        <div><a href="../card/card.html">Card</a></div>
+        <div><a href="../grid/grid.html">Grid</a></div>
+        <div><a href="../image/image.html">Image</a></div>
+        <div><a href="../input/input.html">Input</a></div>
+        <div><a href="../list/list.html">List</a></div>
+        <div><a href="../modal/modal.html">Modal</a></div>
+        <div><a href="../navbar/navbar.html">Navigation</a></div>
+        <div><a href="../rating/rating.html">Rating</a></div>
+        <div><a href="../toast/toast.html">Toast</a></div>
+      </aside>
+      <div class="content">
+        <h1>Input</h1>
+        <p>Inputs are used in forms to collect user related data.</p>
+        <h3>Basic Input</h3>
+        <p>
+          Include class
+          <span class="secondary-color-text fw-600">input-box</span> along with
+          <span class="secondary-color-text fw-600"
+            >input-label, input-text</span
+          >
+          to have desired styling for label and input component
+        </p>
+        <div class="demo-container">
+          <div class="input-box">
+            <label class="input-label fw-600">User name</label>
+            <input class="input-text" type="text" />
+          </div>
         </div>
-    </main>
-</body>
-<script src="../../scripts/script.js"></script>
+        <div class="iframe-container">
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EUser%2520name%253C%252Flabel%253E%2520%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
+        <h3>Input with error validation</h3>
+        <p>
+          Include class
+          <span class="secondary-color-text fw-600">input-box</span> along with
+          <span class="secondary-color-text fw-600">error-input</span> to have
+          error validation on textbox with error text class
+          <span class="secondary-color-text fw-600">input-error-text</span>
+        </p>
+        <div class="demo-container">
+          <div class="input-box">
+            <label class="input-label fw-600">Password</label>
+            <input class="input-text error-input" type="text" />
+            <div class="input-error-text">
+              Incorrect password! Please try again
+            </div>
+          </div>
+        </div>
+
+        <div class="iframe-container">
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2520error-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-error-text%2522%253EIncorrect%2520password%21%2520Please%2520try%2520again%253C%252Fdiv%253E%2520%250A%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <h3>Input with validation</h3>
+        <p>
+          Include class
+          <span class="secondary-color-text fw-600">input-box</span> along with
+          <span class="secondary-color-text fw-600">success-input</span> to have
+          error validation on textbox with success text class
+          <span class="secondary-color-text fw-600">input-success-text</span>
+        </p>
+        <div class="demo-container">
+          <div class="input-box">
+            <label class="input-label fw-600">Password</label>
+            <input class="input-text success-input" type="text" />
+            <div class="input-success-text">Password matches</div>
+          </div>
+        </div>
+
+        <div class="iframe-container">
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Clabel%2520class%253D%2522input-label%2520fw-600%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input-text%2520success-input%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-success-text%2522%253EPassword%2520matches%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../../scripts/script.js"></script>
 </html>
