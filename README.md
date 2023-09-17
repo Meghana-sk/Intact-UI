@@ -42,7 +42,10 @@ Intact UI provides the following components:
 - [Grid](https://intactui.netlify.app/components/grid/grid.html)
 - [Image](https://intactui.netlify.app/components/image/image.html)
 - [Input](https://intactui.netlify.app/components/input/input.html)
+- [List](https://intactui.netlify.app/components/list/list.html)
 - [Modal](https://intactui.netlify.app/components/modal/modal.html)
+- [Navbar](https://intactui.netlify.app/components/navbar/navbar.html)
+- [Start-Rating](https://intactui.netlify.app/components/rating/rating.html)
 - [Toast/Snackbar](https://intactui.netlify.app/components/toast/toast.html)
 - [Typography](https://intactui.netlify.app/components/typography/textutils)
 
